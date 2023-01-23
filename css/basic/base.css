@@ -1,10 +1,8 @@
 :root {
-    --primary-color: #fff;
-    --secondary-color: rgba(139, 204, 204, 1); /*#8bcccc*/
-    --third-color: rgba(220, 172, 211, 1); /*#dcacd3*/
-}
-html {
-    scroll-behavior: smooth;
+    --main-color: #74c69d;
+    --secondary-color: #f5f5f5;
+    --font-color1: #ffffff;
+    --font-color2: #000000;
 }
 
 body,
@@ -16,15 +14,25 @@ body * {
 }
 
 body {
-    font-family: 'Codec Pro', sans-serif;
-    letter-spacing: 0.5px;
+    font-family: 'Work Sans', sans-serif;
+    color: var(--font-color1);
+    background-color: var(--main-color);
 }
-/* Bazinis antrastes stilius:*/
 
-/* Bazinis apraso stilius*/
+/* Headliners stile */
 
-/* Bazinis paragrafo stilius: */
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
 
-/* Bazinis nuorodu stilius
-
-/* Bazinis paragrafe esanciu nuorodu stilius */
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
