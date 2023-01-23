@@ -1,0 +1,19 @@
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.socials > a {
+    text-decoration: none;
+    margin-right: 20px;
+    height: 18px;
+    color: var(--font-color1);
+}
+
+.copyright {
+    font-weight: 400;
+    size: 20px;
+    line-height: 25px;
+}

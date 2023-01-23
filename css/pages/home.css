@@ -1,0 +1,113 @@
+/* base:  */
+@import '../basic/base.css';
+@import '../basic/layout.css';
+
+/* 3rs-party: */
+@import '../3rd-parties/font-awesome.min.css';
+
+/* components (by alphabet):  */
+@import '../components/button.css';
+@import '../components/footer.css';
+
+/* CUSTOM */
+
+/* Main navigation section */
+.main-header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-img {
+    width: 80px;
+}
+
+.logo > p {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.main-navigation > a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--font-color1);
+    margin-left: 30px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero > .section-title {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.hero > .hero-img {
+    width: 50%;
+}
+
+/* Partners section */
+
+.partners {
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--font-color2);
+    gap: 55px;
+}
+
+.partners .section-title {
+    width: 32%;
+}
+
+.partners .title {
+    color: var(--main-color);
+    margin-bottom: 16px;
+}
+
+.partners .main-title {
+    margin-bottom: 16px;
+}
+
+.partners .logotips {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners > .btn.second {
+    background-color: #212529;
+    color: var(--font-color1);
+    padding-left: 29.5px;
+    padding-right: 29.5px;
+}

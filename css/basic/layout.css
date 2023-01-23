@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+.container.row {
+    display: flex;
+    width: 1175px;
+    margin-left: calc(50% - 1175px / 2);
+}
+
+@media {
+}
