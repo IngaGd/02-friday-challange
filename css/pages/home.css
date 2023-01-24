@@ -18,6 +18,12 @@
     background-color: var(--main-color);
 }
 
+.bars {
+    display: none;
+    width: 24.06px;
+    height: 19.69px;
+}
+
 .logo {
     display: flex;
 }
