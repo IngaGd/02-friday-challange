@@ -19,6 +19,10 @@ body {
     background-color: var(--main-color);
 }
 
+.bg-white {
+    background-color: var(--secondary-color);
+}
+
 /* Headliners stile */
 
 h2 {
