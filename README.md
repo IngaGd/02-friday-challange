@@ -19,6 +19,7 @@ Design: [BIT](https://www.figma.com/file/uy1jUWN0N09HSApvSTfb3q/FE-Start-Task?no
 -   [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -   Nav hover
 -   FontAwesome icons
+-   Responsive design
 
 ## Getting Started
 
